@@ -1,0 +1,35 @@
+
+
+.question {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: auto auto;
+}
+
+.my-photo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+}
+
+.a {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.q {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.content h1 {
+    text-align: left;
+}
+
+/* for extra small screens */
+@media only screen and (max-width: 750px) {
+
+    .question {
+        display: inline;
+    }
+}

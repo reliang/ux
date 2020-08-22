@@ -1,0 +1,10 @@
+/* for medium & large screens */
+@media only screen and (min-width: 750px) {
+    .landing {
+        grid-template-columns: 50% auto;
+        grid-template-rows: auto;
+        min-height: 70vh;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
