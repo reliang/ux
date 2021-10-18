@@ -78,6 +78,11 @@ img {
     padding: 1.5em 2.5em;
 }
 
+/* to center images in a row */
+.img-row {
+    text-align: center;
+}
+
 /* for 2 images in a row */
 .img-2 {
     display: inline-block;
@@ -88,6 +93,11 @@ img {
 .img-3 {
     display: inline-block;
     max-width: 32%;
+}
+
+.img-3-complement {
+    display: inline-block;
+    max-width: 66%;
 }
 
 .img-med {
